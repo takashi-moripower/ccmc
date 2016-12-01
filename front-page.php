@@ -133,12 +133,17 @@ get_header();
                         <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/top/top_banner06.png" alt="サイバー大学">
                     </a>
                 </div>
+                <div class="item">
+                    <a href="http://www.ryugakuawards.org/" target="_blank">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/top/top_banner10.png" alt="日本留学アワーズ">
+                    </a>
+                </div>
 				<?php if (false): ?>
-	                <div class="item">
-	                    <a href="<?php echo home_url('school/information'); ?>">
-	                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/top/top_banner07.png" alt="学校基本情報">
-	                    </a>
-	                </div>
+					<div class="item">
+						<a href="<?php echo home_url('school/information'); ?>">
+							<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/top/top_banner07.png" alt="学校基本情報">
+						</a>
+					</div>
 				<?php endif ?>
                 <div class="movie-list">
 					<?php get_template_part('parts/thumbnail-movie'); ?>
