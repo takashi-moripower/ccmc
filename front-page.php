@@ -99,6 +99,11 @@ get_header();
             </div>
             <div class="block-right banner-list">
                 <div class="item">
+                    <a href="<?php echo home_url('admission/guidance/#AO'); ?>">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/top/top_banner11.png" alt="AO入試">
+                    </a>
+                </div>
+                <div class="item">
                     <a href="<?php echo home_url('admission/guidance/application'); ?>">
                         <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/top/top_banner09.png" alt="体験授業申し込み">
                     </a>
