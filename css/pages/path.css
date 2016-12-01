@@ -1,0 +1,100 @@
+#middle .message01{
+    margin-bottom:2em;
+    padding-bottom:1em;
+    border-bottom:1px solid lightgray;
+}
+
+#middle .message01:last-of-type{
+    border-bottom: none;
+}
+
+#middle .message01 .name{
+    float:left;
+    padding:1em;
+    width:182px;
+}
+
+#middle .message01 .company{
+    font-size:180%;
+}
+
+#middle .message01 h3{
+    display:inline-block;
+    margin-bottom:1em;
+}
+
+#middle .message01 .text{
+}
+
+
+#middle .message02{
+    margin-bottom:2em;
+    padding-bottom:1em;
+    border-bottom:1px solid lightgray;
+}
+
+#middle .message02:last-of-type{
+    border-bottom: none;
+}
+
+#middle .message02 .name{
+    float:left;
+    padding:1em;
+    width:182px;
+}
+#middle .message02 .face{
+}
+
+#middle .message02 .company{
+    font-size:180%;
+}
+
+#middle .message02 h3{
+    display:inline-block;
+    margin-bottom:1em;
+}
+
+#middle .message02 .text{
+}
+
+
+
+
+#middle .message03{
+    margin-bottom:2em;
+    padding-bottom:1em;
+    border-bottom:1px solid lightgray;
+}
+
+#middle .message03:last-of-type{
+    border-bottom: none;
+}
+
+#middle .message03 .name{
+    float:left;
+    padding:1em;
+    width:182px;
+}
+
+#middle .message03 .company{
+    font-size:180%;
+}
+
+#middle .message03 h3{
+    border:none;
+    position:relative;
+    margin-bottom:1em;
+}
+#middle .message03 h3:before{
+    position:absolute;
+    height:100%;
+    width:0;
+    border-left:8px solid #f29600;
+    left:170px;
+    top:0;
+    content:' ';
+}
+
+
+#middle .message03 .text{
+}

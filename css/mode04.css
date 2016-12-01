@@ -1,0 +1,136 @@
+/*
+    480px-
+*/
+
+body>.inner{
+    width:auto;
+}
+
+/*------------------------------
+    header
+------------------------------*/
+#header{
+    height: 95px;
+}
+#header .inner{
+    height: 90px;
+}
+#header .header-nav01{
+    display:none;
+}
+#header .tel{
+    display:none;
+}
+#header .school-info{
+    display:none;
+}
+
+#header .logo{
+    position:absolute;
+    width:70%;
+    max-width:347px;
+    height:59px;
+    margin:0;
+}
+
+#header .menu-button{
+    display:block;
+}
+
+/*------------------------------
+    middle
+------------------------------*/
+.middle-left{
+    margin-right:0px;
+    width:auto;
+}
+
+.middle-right{
+    width:auto;
+    position:relative;
+    text-align:center;
+}
+#footer{
+    height:16em;
+}
+
+/*------------------------------
+    keyvisual
+------------------------------*/
+#middle .keyvisual .text{
+    padding-top:2em;
+    padding-left:1em;
+}
+#middle .keyvisual .text h1{
+    font-size:100%;
+}
+#middle .keyvisual .text p{
+    display:none;
+}
+
+/*------------------------------
+    ブロック2分割
+------------------------------*/
+#middle .block-right,
+#middle .block-left,
+#middle .block-left.block-left7,
+#middle .block-right.block-right3{
+    width:100%;
+    float:none;
+}
+
+/*------------------------------
+    ブロック2分割
+------------------------------*/
+#middle .text-image{
+}
+
+#middle .text-image .image{
+    float:none;
+    text-align:center;
+    width:100%;
+}
+#middle .text-image .image img{
+    max-width:100%;
+}
+
+/*------------------------------
+    囲み
+------------------------------*/
+
+#middle .caption{
+    font-size:150%;
+}
+
+/*------------------------------
+    header nav03
+------------------------------*/
+#header .header-nav03>ul>li{
+}
+
+/*------------------------------------------------------------
+    sidebar
+------------------------------------------------------------*/
+#sidebar .side-nav01{
+    display:inline-block;
+    width:225px;
+    text-align:left;
+    vertical-align:top;
+}
+
+#sidebar .side-nav01 ul{
+}
+
+#sidebar .side-nav01>ul>li>a[title='title-large']{
+    line-height:2.5em;
+}
+
+#sidebar .banner-list{
+    
+}
+
+#sidebar .banner-list .item{
+    width:225px;
+    max-width:49%;
+    display:inline-block;
+}

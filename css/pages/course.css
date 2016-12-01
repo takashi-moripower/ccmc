@@ -1,0 +1,147 @@
+.contents{
+    border:1px solid #f29600;
+    position:relative;
+    margin-top:5em;
+    padding:1.5em;
+}
+
+.contents.green{
+    border:1px solid #23a53b;
+}
+.contents.blue{
+    border:1px solid #08aae6;
+}
+
+.contents .title{
+    font-family: 'Raleway', sans-serif;
+    position:absolute;
+    top:-1.1em;
+    left:0;
+    font-size:200%;
+    font-style:italic;
+    color:#f29600;
+}
+
+.contents.green .title{
+        color:#23a53b;
+}
+.contents.blue .title{
+        color:#08aae6;
+}
+
+
+
+.contents ul{
+    list-style:none;
+    display:block;
+    width:100%;
+}
+
+.contents li{
+    display:inline-block;
+    margin:0;
+    padding:0.5em 0 0 0.5em;
+}
+
+.contents li a{
+    color:inherit;
+}
+
+.contents li a:hover{
+    text-decoration:underline;
+}
+.contents li a:before{
+	font-family:"FontAwesome";
+    content:'\f105 ';
+}
+
+/*------------------------------
+    course02
+------------------------------*/
+table.course02{
+    border-top:1px dashed black;
+    width:100%;
+}
+
+table.course02 td{
+    border-bottom:1px dashed black;
+    padding:0.5em;
+}
+
+table.course02 td:first-child{
+    text-align:left;
+}
+
+table.course02 td:first-child:before{
+	font-family:"FontAwesome";
+    content:'\f10c  ';
+}
+
+table.course02 td:last-child{
+    text-align:right;
+}
+
+/*------------------------------
+    course03
+------------------------------*/
+.course03 .face{
+    float:left;
+    width:180px;
+    margin-right:10px;
+}
+
+.course03 .name{
+    font-weight:bold;
+    padding:1em;
+}
+
+.course03 .message{
+    padding:1em;
+}
+
+/*------------------------------
+    course04
+------------------------------*/
+.course04{
+    margin-top:1em;
+    margin-bottom:2em;
+}
+
+.course04 .face{
+    float:left;
+    width:180px;
+    margin-right:10px;
+}
+
+.course04 .logo{
+	padding-bottom:1rem;
+}
+
+.course04 .message{
+}
+
+/*------------------------------
+    course05
+------------------------------*/
+.course05{
+    position:relative;
+    margin-top:1em;
+    min-height:240px;
+}
+
+.course05 .face{
+    position:absolute;
+    width:130px;
+    top:0;
+    left:0;
+}
+
+#middle .course05 .name{
+    padding-top:1em;
+    font-size:12px;
+    text-align:right;
+}
+
+.course05 .message{
+    padding-left:140px;
+}

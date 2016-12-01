@@ -1,0 +1,50 @@
+
+.forworker01 table{
+    width:100%;
+    margin:1em 0;
+}
+
+.forworker01 table th{
+    vertical-align:top;
+    padding:0.5em;
+    border:1px solid lightgray;
+    white-space:nowrap;
+}
+
+.forworker01 table th .active{
+    color:red;
+}
+
+.forworker01 table td{
+    padding:0.5em;
+    border:1px solid lightgray;
+}
+#middle .forworker01 .post-meta{
+    margin:0 0 0 1em ;
+    border:none;
+}
+.forworker01 .post-meta .cell{
+    float:left;
+    margin-right:1em;
+}
+
+.forworker01 .post-meta .cell .title{
+    display:inline-block;
+    width:4em;
+    text-align:center;
+    position:relative;
+    margin:0 1em 0 1.2em;
+}
+.forworker01 .post-meta .cell .title:before{
+    position:absolute;
+    content: "\f10c";
+    font-family:'FontAwesome';
+    top:0;
+    left:-1.1em;
+}
+.forworker01 .post-meta .cell .title:after{
+    position:absolute;
+    content:':';
+    top:0;
+    right:-.75em;
+}

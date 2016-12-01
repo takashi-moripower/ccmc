@@ -1,0 +1,83 @@
+.result01 .cell{
+    width:160px;
+    height:320px;
+    display:inline-block;
+    
+    vertical-align:top;
+}
+
+.result01 .face{
+    width:100%;
+}
+
+.result01 .company{
+    border-bottom:2px solid #f29600;
+    font-size:90%;
+}
+.result01 .school{
+    border-bottom:2px solid #08aae6;
+    font-size:90%;
+}
+
+.result01 .course{
+    font-size:90%;
+}
+.result01 .name{
+    font-size:90%;
+}
+
+
+
+.result02 .face{
+    width:180px;
+    margin-right:10px;
+    float:left;
+}
+
+.result02 .text{
+    
+}
+.result02 .name{
+    font-size:120%;
+    margin-bottom:0.5em;
+}
+
+
+.result03{
+    
+}
+
+.result03 .cell{
+    float:left;
+    position:relative;
+    max-width:100%;
+    margin-right:3em;
+}
+
+.result03 .image img{
+    max-height:240px;
+}
+
+.result03 .text{
+    width:100%;
+    position:absolute;
+    bottom:0;
+    left:0;
+    padding:0.5em 0.5em 1em;
+    color:white;
+    font-weight:bold;
+    background-color:rgba(242,150,0,0.5);
+}
+
+.result03 .cell:after{
+    content:"\f061";
+    font-family:"FontAwesome";
+    position:absolute;
+    top:50%;
+    right:-1.5em;
+    color:rgb(242,150,0);
+}
+
+.result03 .cell:last-of-type:after{
+    content:none;
+}

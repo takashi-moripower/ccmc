@@ -1,0 +1,96 @@
+@charset "UTF-8";
+/*
+Theme Name:chuo1507
+Description:
+Author:MORIPOWER
+*/
+@import url(http://fonts.googleapis.com/css?family=Raleway);
+
+@import url("css/sanitize.css");
+@import url("css/mode00.css");
+@import url("css/mode02.css") screen and (max-width:969px) and (min-width:768px);
+@import url("css/mode03.css") screen and (max-width:767px) and (min-width:481px);
+@import url("css/mode04.css") screen and (max-width:480px);
+
+
+/*------------------------------
+    印刷用
+------------------------------*/
+@media print {
+    body{
+        zoom:0.66;
+    }
+}
+
+/*------------------------------
+    PCのみ、スマホのみ
+------------------------------*/
+@media screen and (min-width:768px){
+    .only-sp{
+	display:none !important;
+    }
+}
+
+@media screen and (max-width:767px){
+    .only-pc{
+	display:none !important;
+    }
+}
+
+@media print{
+    .only-sp{
+	display:none !important;
+    }
+}
+
+
+
+/*------------------------------
+    clearfix
+------------------------------*/
+@media (min-width:970px){
+}	
+@media (max-width:969px) and (min-width:768px){	
+    .responsive-font{
+	font-size:100%;
+    }
+}
+@media (max-width:767px) and (min-width:481px){
+    .responsive-font{
+	font-size:80%;
+    }
+}
+@media (max-width:480px)and (min-width:321px){
+    .responsive-font{
+	font-size:50%;
+    }
+}
+
+@media (max-width:320px){
+    .responsive-font{
+	font-size:33%;
+    }
+}
+
+/*------------------------------
+    clearfix
+------------------------------*/
+.clearfix:after {
+    content: "."; 
+    display: block;
+    clear: both;
+    height: 0;
+    visibility: hidden;
+}
+ 
+.clearfix {
+    min-height: 1px;
+}
+ 
+* html .clearfix {
+    height: 1px;
+    /*¥*//*/
+    height: auto;
+    overflow: hidden;
+    /**/
+}

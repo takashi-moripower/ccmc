@@ -1,0 +1,96 @@
+/*------------------------------
+    industry01
+------------------------------*/
+
+.industry01 h3{
+    display:inline-block;
+}
+/*------------------------------
+    industry02
+------------------------------*/
+#middle .industry02 h3{
+    color:#111;
+}
+
+.industry02 .cell{
+    position:relative;
+    margin-bottom:1.5em;
+}
+
+.industry02 .cell .face{
+    width:200px;
+    float:left;
+    padding-right:10px;
+    font-size:0;
+    line-height:0;
+}
+
+.industry02 .cell .face img{
+    max-width:100%;
+}
+
+.industry02 .logo{
+    vertical-align:middle;
+    display:block;
+}
+
+.industry02 .logo .title{
+    display:inline-block;
+    font-size:75%;
+    padding:1em 0;
+}
+/*------------------------------
+    industry03
+------------------------------*/
+.industry03 .cell{
+    position:relative;
+    margin-bottom:1.5em;
+}
+
+.industry03 .line01,
+.industry03 .line02{
+    margin-bottom:1em;
+}
+
+
+.industry03 .company{
+    width:250px;
+    float:left;
+}
+#middle .industry03 h3{
+    color:#111;
+    margin-top:0;
+}
+#middle .industry03 h3 .subtitle:before{
+    content:'\a';
+    white-space: pre;
+}
+
+.industry03 .title{
+    font-size:150%;
+    font-weight:bold;
+    display:inline-block;
+}
+
+.industry03 .cell .face{
+    width:96px;
+    float:left;
+    font-size:0;
+    line-height:0;
+    vertical-align:middle;
+}
+
+.industry03 .cell .face img{
+    max-width:100%;
+}
+
+.industry03 .name{
+    display:inline-block;
+    vertical-align:middle;
+    width:150px;
+    float:left;
+    font-size:75%;
+    height:150px;
+    padding-top:50px;
+    padding-left:10px;
+}

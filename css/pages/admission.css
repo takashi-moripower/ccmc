@@ -1,0 +1,125 @@
+table.expense02 hr{
+        background-color:#333;
+        height:1px;
+        margin:0 0 0 1em;
+}
+
+/*
+        guidance
+*/
+
+.guidance01{
+        margin-top:1em;
+}
+
+.guidance01 .date{
+        display:inline-block;
+        text-align:right;
+        width:7em;
+}
+.guidance01 .time{
+        display:inline-block;
+        text-align:right;
+        width:10em;
+}
+
+.guidance02{
+        position:relative;
+        min-height:310px;
+        margin-top:1em;
+}
+
+.guidance02 .face{
+        width:200px;
+        display:inline-block;
+        position:absolute;
+        left:0;
+        top:0;
+}
+
+.guidance02 .comment{
+        position:relative;
+        display:inline-block;
+        border:1px solid #ff9600;
+        border-radius:20px;
+        margin-top:20px;
+        margin-left:210px;
+        padding:20px;
+        vertical-align:middle;
+        width: auto;
+        min-width: 115px;
+        z-index: 0;
+}
+@media (max-width:767px) and (min-width:481px){
+        .guidance02{
+                position:relative;
+                min-height:230px;
+        }
+        .guidance02 .face{
+                width:150px;
+        }
+        .guidance02 .comment{
+                margin-left:160px;
+        }
+}
+@media(max-width:480px){
+        .guidance02{
+                position:relative;
+                min-height:160px;
+        }
+        .guidance02 .face{
+                width:100px;
+        }
+        .guidance02 .comment{
+                margin-top:0;
+                margin-left:110px;
+        }
+}
+
+.guidance02 .comment:before {
+        content: "";
+        position: absolute;
+        top: 30%; left: -8px;
+        margin-top: -9px;
+        display: block;
+        width: 0px;
+        height: 0px;
+        border-style: solid;
+        border-width: 9px 9px 9px 0;
+        border-color: transparent #ffffff transparent transparent;
+        z-index: 0;
+}
+.guidance02 .comment:after {
+        content: "";
+        position: absolute;
+        top: 30%; left: -10px;
+        margin-top: -10px;
+        display: block;
+        width: 0px;
+        height: 0px;
+        border-style: solid;
+        border-width: 10px 10px 10px 0;
+        border-color: transparent #ff9600 transparent transparent;
+        z-index: -1;
+}
+
+.guidance02.guidance02-noface{
+        min-height:0;
+}
+
+.guidance03 {
+        margin-top:10px;
+}
+
+#middle .guidance03.image1 img {
+        max-width:480px;
+}
+@media(max-width:480px){
+	#middle .guidance03.image1 img {
+			max-width:100%;
+	}
+}
+
+#middle .caption a:before{
+        left:0.5em;
+}

@@ -1,0 +1,40 @@
+.qualification01 .cell{
+    padding:.5em 0;
+}
+#middle .qualification01 h4{
+    margin:0.5em 0;
+}
+
+.qualification01 .cell ul{
+    margin-top:0.5em;
+}
+.qualification01 .cell li{
+    margin-top:0.5em;
+}
+
+
+/*------------------------------
+    qualification02
+------------------------------*/
+.qualification02{
+    position:relative;
+    margin-top:1em;
+    min-height:240px;
+}
+
+.qualification02 .face{
+    position:absolute;
+    width:130px;
+    top:0;
+    left:0;
+}
+
+#middle .qualification02 .name{
+    padding-top:1em;
+    font-size:12px;
+    text-align:right;
+}
+
+.qualification02 .message{
+    padding-left:140px;
+}

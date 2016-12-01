@@ -1,0 +1,17 @@
+/*
+    test
+*/
+#sample-image{
+    position:relative;
+}
+#sample-image .inner{
+    background-image:url("../../../images/sample/it-web.png");
+    width:940px;
+    height:3120px;
+    position:absolute;
+    top:0;
+    left:50%;
+    margin-left:-470px;
+    z-index:1000;
+    opacity:0.5;
+}

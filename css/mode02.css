@@ -1,0 +1,54 @@
+/*
+    969px-768px
+*/
+
+body>.inner{
+    width:auto;
+}
+
+.middle-left{
+    margin-right:0px;
+    width:auto;
+}
+
+.middle-right{
+    width:auto;
+    position:relative;
+    text-align:center;
+}
+
+#header .header-nav01{
+    font-size:110%;
+}
+
+#middle>.middle-all .width-all{
+    width:auto;
+    margin-left:-14px;
+    margin-right:-14px;
+}
+
+/*------------------------------------------------------------
+    sidebar
+------------------------------------------------------------*/
+#sidebar .side-nav01{
+    display:inline-block;
+    width:225px;
+    text-align:left;
+    vertical-align:top;
+}
+
+#sidebar .side-nav01 ul{
+}
+
+#sidebar .side-nav01>ul>li>a[title='title-large']{
+    line-height:2.5em;
+}
+
+#sidebar .banner-list{
+    
+}
+
+#sidebar .banner-list .item{
+    width:225px;
+    display:inline-block;
+}
