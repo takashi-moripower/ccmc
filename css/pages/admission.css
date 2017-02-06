@@ -123,3 +123,16 @@ table.expense02 hr{
 #middle .caption a:before{
         left:0.5em;
 }
+
+.warning{
+	border-top:1px solid red;
+	border-bottom:1px solid red;
+	
+	padding-bottom:1rem;
+	padding-left:1rem;
+	padding-right:1rem;
+	
+	margin-bottom:2rem;
+	
+	color:red;
+}
